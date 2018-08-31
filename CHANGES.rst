@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.0a2 (unreleased)
+1.0a2 (2018-08-31)
 ------------------
 
 - Add the zcml dependency for rescuearea.core
