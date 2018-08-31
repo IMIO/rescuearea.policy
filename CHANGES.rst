@@ -5,7 +5,8 @@ Changelog
 1.0a2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Add the zcml dependency for rescuearea.core
+  [mpeeters]
 
 
 1.0a1 (2018-08-23)
