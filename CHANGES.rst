@@ -5,7 +5,8 @@ Changelog
 1.0a3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Add collective.excelexport dependency
+  [vpiret]
 
 
 1.0a2 (2018-08-31)
