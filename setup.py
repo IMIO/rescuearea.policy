@@ -46,6 +46,7 @@ setup(
         'z3c.jbot',
         'rescuearea.core',
         'collective.excelexport',
+        'rescuearea.theme',
     ],
     extras_require={
         'test': [

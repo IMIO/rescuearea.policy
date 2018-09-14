@@ -3,6 +3,7 @@
   <version>1000</version>
   <dependencies>
     <dependency>profile-rescuearea.core:default</dependency>
+    <dependency>profile-rescuearea.theme:default</dependency>
     <dependency>profile-collective.excelexport:default</dependency>
   </dependencies>
 </metadata>
