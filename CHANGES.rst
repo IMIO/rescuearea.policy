@@ -5,6 +5,9 @@ Changelog
 1.0a3 (unreleased)
 ------------------
 
+- Add theme dependency
+  [vpiret]
+
 - Add collective.excelexport dependency
   [vpiret]
 
