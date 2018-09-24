@@ -45,8 +45,8 @@ setup(
         'setuptools',
         'z3c.jbot',
         'rescuearea.core',
-        'collective.excelexport',
         'rescuearea.theme',
+        'collective.excelexport',
     ],
     extras_require={
         'test': [
