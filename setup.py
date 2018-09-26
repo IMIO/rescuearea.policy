@@ -47,6 +47,7 @@ setup(
         'rescuearea.core',
         'rescuearea.theme',
         'collective.excelexport',
+        'collective.ttwpo',
     ],
     extras_require={
         'test': [

@@ -10,6 +10,9 @@
   <include package="rescuearea.core" />
   <include package="rescuearea.theme" />
 
+  <include package="collective.excelexport" />
+  <include package="collective.ttwpo" />
+
   <include package=".browser" />
 
   <include file="permissions.zcml" />
