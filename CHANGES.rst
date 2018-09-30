@@ -5,6 +5,9 @@ Changelog
 1.0a4 (unreleased)
 ------------------
 
+- Add groups for ppt and ppie editing
+  [vpiret]
+
 - Add the dependency to collective.ttwpo
   [mpeeters]
 
