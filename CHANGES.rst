@@ -5,6 +5,9 @@ Changelog
 1.0a5 (unreleased)
 ------------------
 
+- Blackened
+  [mpeeters]
+
 - Add the dependencies for `pas.plugins.ldap` and `plone.restapi`
   [mpeeters]
 

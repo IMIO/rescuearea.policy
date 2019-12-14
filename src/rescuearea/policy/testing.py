@@ -21,21 +21,19 @@ class RescueareaPolicyLayer(PloneSandboxLayer):
         self.loadZCML(package=rescuearea.policy)
 
     def setUpPloneSite(self, portal):
-        applyProfile(portal, 'rescuearea.policy:default')
+        applyProfile(portal, "rescuearea.policy:default")
 
 
 RESCUEAREA_POLICY_FIXTURE = RescueareaPolicyLayer()
 
 
 RESCUEAREA_POLICY_INTEGRATION_TESTING = IntegrationTesting(
-    bases=(RESCUEAREA_POLICY_FIXTURE,),
-    name='RescueareaPolicyLayer:IntegrationTesting',
+    bases=(RESCUEAREA_POLICY_FIXTURE,), name="RescueareaPolicyLayer:IntegrationTesting"
 )
 
 
 RESCUEAREA_POLICY_FUNCTIONAL_TESTING = FunctionalTesting(
-    bases=(RESCUEAREA_POLICY_FIXTURE,),
-    name='RescueareaPolicyLayer:FunctionalTesting',
+    bases=(RESCUEAREA_POLICY_FIXTURE,), name="RescueareaPolicyLayer:FunctionalTesting"
 )
 
 
@@ -45,5 +43,5 @@ RESCUEAREA_POLICY_ACCEPTANCE_TESTING = FunctionalTesting(
         REMOTE_LIBRARY_BUNDLE_FIXTURE,
         z2.ZSERVER_FIXTURE,
     ),
-    name='RescueareaPolicyLayer:AcceptanceTesting',
+    name="RescueareaPolicyLayer:AcceptanceTesting",
 )

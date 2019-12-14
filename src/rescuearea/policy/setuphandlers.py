@@ -7,29 +7,22 @@ from collective.ttwpo import api as poapi
 
 @implementer(INonInstallable)
 class HiddenProfiles(object):
-
     def getNonInstallableProfiles(self):
         """Hide uninstall profile from site-creation and quickinstaller."""
-        return [
-            'rescuearea.policy:uninstall',
-        ]
+        return ["rescuearea.policy:uninstall"]
 
 
 def post_install(context):
     """Post install script"""
-    if 'rescuearea.core' not in poapi.domains():
-        poapi.create('rescuearea.core', locales=['fr'])
+    if "rescuearea.core" not in poapi.domains():
+        poapi.create("rescuearea.core", locales=["fr"])
 
     api.group.create(
-        groupname='ppi_encoder',
-        title='PPI Encoder',
-        roles=['PPI Encoder']
+        groupname="ppi_encoder", title="PPI Encoder", roles=["PPI Encoder"]
     )
 
     api.group.create(
-        groupname='ppie_encoder',
-        title='PPIE Encoder',
-        roles=['PPIE Encoder']
+        groupname="ppie_encoder", title="PPIE Encoder", roles=["PPIE Encoder"]
     )
 
 
