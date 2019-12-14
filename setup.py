@@ -29,8 +29,8 @@ setup(
         "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
     ],
     keywords='Python Plone',
-    author='Sebastien Sirtoli',
-    author_email='sirtoli.dev@gmail.com',
+    author='Affinitic',
+    author_email='support@affinitic.be',
     url='https://pypi.python.org/pypi/rescuearea.policy',
     license='GPL version 2',
     packages=find_packages('src', exclude=['ez_setup']),
@@ -40,14 +40,16 @@ setup(
     zip_safe=False,
     install_requires=[
         # -*- Extra requirements: -*-
-        'plone.api>=1.8.4',
         'Products.GenericSetup>=1.8.2',
-        'setuptools',
-        'z3c.jbot',
-        'rescuearea.core',
-        'rescuearea.theme',
         'collective.excelexport',
         'collective.ttwpo',
+        'pas.plugins.ldap',
+        'plone.api>=1.8.4',
+        'plone.restapi',
+        'rescuearea.core',
+        'rescuearea.theme',
+        'setuptools',
+        'z3c.jbot',
     ],
     extras_require={
         'test': [

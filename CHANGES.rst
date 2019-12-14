@@ -5,7 +5,8 @@ Changelog
 1.0a5 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Add the dependencies for `pas.plugins.ldap` and `plone.restapi`
+  [mpeeters]
 
 
 1.0a4 (2018-09-30)

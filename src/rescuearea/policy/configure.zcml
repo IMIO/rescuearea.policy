@@ -7,11 +7,14 @@
 
   <i18n:registerTranslations directory="locales" />
 
+  <include package="Products.CMFPlone" />
+  <include package="plone.restapi" />
   <include package="rescuearea.core" />
   <include package="rescuearea.theme" />
 
   <include package="collective.excelexport" />
   <include package="collective.ttwpo" />
+  <include package="pas.plugins.ldap" />
 
   <include package=".browser" />
 
